@@ -1,4 +1,3 @@
-// services/ai_service.dart
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 const String apiKey = "AIzaSyB1oj82X3iE5HeJQNXWvxibAlCVO-Nh3OM";

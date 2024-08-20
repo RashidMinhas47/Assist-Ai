@@ -1,4 +1,3 @@
-// models/chat_model.dart
 import 'message.dart';
 
 class ChatModel {
