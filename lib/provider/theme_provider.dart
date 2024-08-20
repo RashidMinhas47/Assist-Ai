@@ -1,21 +1,3 @@
-// import 'package:flutter_riverpod/flutter_riverpod.dart';
-//
-// final themeNotifierProvider = StateNotifierProvider<ThemeProvider,bool>((ref) {
-//   return ThemeProvider();
-// });
-//
-// class ThemeProvider extends StateNotifier<bool> {
-//   bool isDarkMode = false;
-//   ThemeProvider()
-//       : super(false); // Initial theme is light mode
-//
-//   void toggleTheme() {
-//   state = !state;
-//   isDarkMode = state;
-//   print(state);
-//   }
-//
-// }
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
