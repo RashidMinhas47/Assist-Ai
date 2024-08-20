@@ -20,7 +20,7 @@ class Home extends ConsumerWidget {
     final chatModel = ref.watch(chatProvider);
     final chatProv = ref.watch(chatProvider.notifier);
     final messageCtrPro = ref.watch(messageCtrProvider);
-    final themeProvider = ref.watch(appThemeStateNotifier);
+    final themePro = ref.watch(appThemeStateNotifier);
 
     return Scaffold(
       drawer:const HomeDrawer(),
@@ -35,8 +35,8 @@ class Home extends ConsumerWidget {
                 },
                 icon: const Icon(Icons.delete_outline)),
             IconButton(onPressed: (){
-              themeProvider.toggleTheme();
-            }, icon:  Icon(themeProvider.isDarkModeEnabled? Icons.dark_mode :Icons.light_mode))
+              themePro.toggleTheme();
+            }, icon:  Icon(themePro.isDarkModeEnabled? Icons.dark_mode :Icons.light_mode))
           ],
         ),
         body: Column(
